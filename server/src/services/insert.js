@@ -11,7 +11,7 @@ import generateCode from "../utils/generateCode";
 
 require('dotenv').config()
 
-const dataBody = chothuecanho.body
+const dataBody = nhachothue.body
 
 const hashPassword = password => bcrypt.hashSync(password, bcrypt.genSaltSync(12))
 
@@ -31,7 +31,7 @@ export const insertService = () => new Promise(async (resolve, reject) => {
                 labelCode,
                 address: item?.header?.address,
                 attributesId,
-                categoryCode: 'CTCH',
+                categoryCode: 'NCT',
                 description: JSON.stringify(item?.mainContent?.content),
                 userId,
                 overviewId,
