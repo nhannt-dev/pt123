@@ -1,19 +1,19 @@
 http://localhost/phpmyadmin/index.php?route=/database/structure&db=phongtro123
 
-[POST]  http://localhost:5001/api/v1/auth/register
+[POST]  http://localhost:5000/api/v1/auth/register
 {
     "phone": "0356035625",
     "name": "Nguyễn Trọng Nhân",
     "password": "1234567890"
 }
 
-[POST]  http://localhost:5001/api/v1/auth/login
+[POST]  http://localhost:5000/api/v1/auth/login
 {
     "phone": "0356035625",
     "password": "1234567890"
 }
 
-
+[POST]  http://localhost:5000/api/v1/insert
 
 
 
