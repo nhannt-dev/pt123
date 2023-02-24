@@ -15,5 +15,4 @@ http://localhost/phpmyadmin/index.php?route=/database/structure&db=phongtro123
 
 [POST]  http://localhost:5000/api/v1/insert
 
-
-
+[GET]  http://localhost:5000/api/v1/category/all
