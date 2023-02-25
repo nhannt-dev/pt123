@@ -24,6 +24,12 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE
       },
+      fbUrl: {
+        type: Sequelize.STRING
+      },
+      avatar: {
+        type: Sequelize.BLOB('long')
+      },
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
