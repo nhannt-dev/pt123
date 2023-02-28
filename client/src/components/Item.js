@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React, { memo, useState } from 'react'
 import icons from "../ultils/icons";
 
 const indexs = [0, 1, 2, 3]
@@ -13,13 +13,18 @@ const img = [
 ]
 
 const Item = () => {
+  const [isHoverHeart, setIsHoverHeart] = useState(false)
   return (
     <div className='w-full flex my-2 border-t border-orange-600 p-4'>
-        <div className='w-2/5 flex flex-wrap gap-[2px] items-center'>
+        <div className='w-2/5 flex flex-wrap gap-[2px] items-center relative cursor-pointer'>
             <img src={img[0]} className='w-[140px] h-[120px] object-cover' />
             <img src={img[1]} className='w-[140px] h-[120px] object-cover' />
             <img src={img[2]} className='w-[140px] h-[120px] object-cover' />
             <img src={img[3]} className='w-[140px] h-[120px] object-cover' />
+            <span className='bg-overlay-70 text-white px-2 rounded-md absolute left-1 bottom-1'>4 ảnh</span>
+            <span className='text-white absolute right-5 bottom-1' onMouseEnter={() => setIsHoverHeart(true)} onMouseLeave={() => setIsHoverHeart(false)}>
+              {isHoverHeart ? <RiHeartFill size={26} color='red' /> : <RiHeartLine size={26} />}
+            </span>
         </div>
         <div className='w-3/5'>
             <div className='flex justify-between gap-4 w-full'>

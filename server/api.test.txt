@@ -18,3 +18,5 @@ https://www.phpmyadmin.co/db_structure.php?server=1&db=by17gyxcfpguugbwbwsq
 [POST]  http://localhost:5000/api/v1/insert
 
 [GET]  http://localhost:5000/api/v1/category/all
+
+[GET]  http://localhost:5000/api/v1/post/all
