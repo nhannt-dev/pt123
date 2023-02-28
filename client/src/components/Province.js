@@ -4,7 +4,7 @@ import ProvinceBtn from './ProvinceBtn'
 
 const Province = () => {
   return (
-    <div className='flex items-center justify-center gap-5 py-5 shadow-md'>
+    <div className='flex items-center justify-center gap-5 py-5'>
         {location.map((item) => (
           <ProvinceBtn key={item.id} name={item.name} image={item.image} />
         ))}
