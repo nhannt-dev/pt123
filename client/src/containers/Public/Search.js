@@ -1,7 +1,6 @@
 import React from 'react'
 import SearchItem from '../../components/SearchItem'
-import { text } from '../../ultils/constant';
-import icons from "../../ultils/icons";
+import icons from "../../ultils/icons"
 
 const { BsChevronRight, HiOutlineLocationMarker, TbReportMoney, RiCrop2Line, MdOutlineHouseSiding, FiSearch } = icons
 

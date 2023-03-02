@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { InputForm, Button } from '../../components'
-import { useLocation, useNavigate } from "react-router-dom";
-import * as actions from "../../store/actions";
-import { useDispatch, useSelector } from "react-redux";
+import { useLocation, useNavigate } from "react-router-dom"
+import * as actions from "../../store/actions"
+import { useDispatch, useSelector } from "react-redux"
 import Swal from 'sweetalert2'
 
 const Login = () => {

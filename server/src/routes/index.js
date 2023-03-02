@@ -1,7 +1,7 @@
-import authRouter from "./auth";
-import insertRouter from "./insert";
-import categoryRouter from "./category";
-import postRouter from "./post";
+import authRouter from "./auth"
+import insertRouter from "./insert"
+import categoryRouter from "./category"
+import postRouter from "./post"
 
 const initRoutes = (app) => {
     app.use('/api/v1/auth', authRouter)

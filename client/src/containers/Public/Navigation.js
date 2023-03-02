@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux'
 
-import { apiGetCategories } from '../../services/category';
-import { formatVietnameseToString } from '../../ultils/Common/formatVietnameseToString';
+import { apiGetCategories } from '../../services/category'
+import { formatVietnameseToString } from '../../ultils/Common/formatVietnameseToString'
 
 const notActive = 'hover:bg-secondary2 px-4 h-full flex items-center bg-secondary1'
 const active = 'hover:bg-secondary2 px-4 h-full flex items-center bg-secondary2'

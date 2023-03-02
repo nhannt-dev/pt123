@@ -1,5 +1,5 @@
-import types from "./types";
-import { apiRegister, apiLogin } from "../../services/auth";
+import types from "./types"
+import { apiRegister, apiLogin } from "../../services/auth"
 
 export const register = (payload) => async (dispatch) => {
     try {

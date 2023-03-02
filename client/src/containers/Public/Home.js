@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import { Outlet } from 'react-router-dom'
 import Navigation from './Navigation'
-import Search from "./Search";
+import Search from "./Search"
 
 const Home = () => {
     return (

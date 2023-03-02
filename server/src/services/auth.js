@@ -1,7 +1,7 @@
-import db from "../models";
-import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
-import { v4 } from "uuid";
+import db from "../models"
+import bcrypt from "bcryptjs"
+import jwt from "jsonwebtoken"
+import { v4 } from "uuid"
 require('dotenv').config()
 
 const hashPassword = password => bcrypt.hashSync(password, bcrypt.genSaltSync(12))

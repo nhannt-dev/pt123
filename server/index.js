@@ -1,10 +1,10 @@
 require('dotenv').config()
-import express from "express";
-import cors from "cors";
-import morgan from "morgan";
+import express from "express"
+import cors from "cors"
+import morgan from "morgan"
 
-import initRoutes from "./src/routes";
-import connectDatabase from "./src/config/connect";
+import initRoutes from "./src/routes"
+import connectDatabase from "./src/config/connect"
 
 const app = express()
 const PORT = process.env.PORT || 8888
