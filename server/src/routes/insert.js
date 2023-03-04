@@ -1,7 +1,9 @@
 import express from "express"
-import { insert } from "../controllers/insert"
+import { createPricesArea, insert } from "../controllers/insert"
 const router = express.Router()
 
 router.post('/', insert)
+
+router.post('/create', createPricesArea)
 
 export default router
